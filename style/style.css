@@ -10,6 +10,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+}
+.btnCommon {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  background: #fc0;
+  border-radius: 12px;
+  width: 180px;
+  padding: 16px 0;
+  justify-content: center;
+  text-align: center;
+}
 
 /* navbar start */
 nav .toggleBtn {
@@ -30,4 +45,46 @@ nav .toggleBtn {
 #myMenu ul li a.active,
 #myMenu ul li a:hover {
   border-bottom: 2px solid #353535;
+}
+
+/* banner start */
+#banner {
+  padding: 60px 0;
+}
+
+#banner .bannerText h6 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  color: #353535;
+}
+#banner .bannerText h2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 64px;
+  color: #353535;
+}
+#banner .bannerText p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  color: #353535;
+}
+
+.secBtn {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  color: #353535;
+  border: 1px solid #000;
+  border-radius: 20px;
+  width: 209px;
+  padding: 16px 0;
+  justify-content: center;
+  text-align: center;
+}
+.fbIcn {
+  border-radius: 100%;
+  fill: #f4f3f3;
 }
