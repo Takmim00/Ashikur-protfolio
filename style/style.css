@@ -139,3 +139,38 @@ nav .toggleBtn {
   color: #353535;
   padding: 14px;
 }
+
+#idea{
+  padding-bottom: 60px ;
+}
+.box-1 {
+  text-align: center;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  border-radius: 20px;
+  padding: 20px 25px;
+}
+.box-1 img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 25px;
+}
+
+.box-1 h5 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 180%;
+  text-align: center;
+  color: #353535;
+}
+.box-1 p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  text-align: center;
+  color: #7a7a7a;
+}
