@@ -88,3 +88,54 @@ nav .toggleBtn {
   border-radius: 100%;
   fill: #f4f3f3;
 }
+
+/* about section */
+#aboutMe {
+  position: relative;
+  background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+#aboutMe::before {
+  content: "";
+  position: absolute;
+  right: 150px;
+  bottom: -120px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: linear-gradient(
+    180deg,
+    #52ab70 0%,
+    rgba(82, 171, 112, 0.48) 100%
+  );
+  z-index: 0;
+}
+
+.bannerText h2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 50px;
+  color: #353535;
+}
+
+.bannerText p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 190%;
+  color: #353535;
+  width: 570px;
+  margin-bottom: 40px;
+}
+.seeBtn {
+  border: 1px solid #000;
+  border-radius: 20px;
+  width: 171px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: #353535;
+  padding: 14px;
+}
