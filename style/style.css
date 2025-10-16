@@ -250,17 +250,74 @@ nav .toggleBtn {
   color: #353535;
 }
 
-.client h4{
+.client h4 {
   font-family: var(--second-family);
-font-weight: 700;
-font-size: 40px;
-text-align: right;
-color: #353535;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: right;
+  color: #353535;
 }
-.client p{
+.client p {
   font-family: var(--font-family);
-font-weight: 500;
-font-size: 14px;
-line-height: 180%;
-color: #353535;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 180%;
+  color: #353535;
+}
+/* Experience section start  */
+#experience {
+  padding-bottom: 60px;
+}
+.experienceTitle {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: #353535;
+  margin-bottom: 70px;
+}
+.experiencee {
+  position: relative;
+}
+
+.experience-center {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.experience-center img {
+  position: absolute;
+  top: 0;
+}
+
+.experience-item {
+  margin-bottom: 168px;
+}
+
+.experience-left {
+  text-align: right;
+}
+.experience-item-2 {
+  margin-bottom: 96px;
+}
+
+.experience-right {
+  text-align: left;
+}
+
+.experience-content h5 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 180%;
+  color: #353535;
+}
+
+.experience-content p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #7a7a7a;
 }
