@@ -182,7 +182,6 @@ nav .toggleBtn {
   margin-bottom: 60px;
 }
 
-
 #branding .topShape img {
   position: absolute;
   top: -25px;
@@ -200,7 +199,6 @@ nav .toggleBtn {
   font-size: 18px;
   line-height: 190%;
   color: #353535;
-  width: 410px;
   margin-bottom: 40px;
 }
 
@@ -212,4 +210,57 @@ nav .toggleBtn {
   position: absolute;
   top: -50px;
   left: 150px;
+}
+
+/* Help section start  */
+#help {
+  padding-bottom: 60px;
+}
+.helpCard {
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+.helpCard h4 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  color: #353535;
+}
+.helpCard p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 180%;
+  color: #353535;
+}
+.helpTxt h3 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 50px;
+  text-align: right;
+  color: #353535;
+}
+.helpTxt p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 190%;
+  text-align: right;
+  color: #353535;
+}
+
+.client h4{
+  font-family: var(--second-family);
+font-weight: 700;
+font-size: 40px;
+text-align: right;
+color: #353535;
+}
+.client p{
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 180%;
+color: #353535;
 }
