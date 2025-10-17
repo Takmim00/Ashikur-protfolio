@@ -91,16 +91,17 @@ nav .toggleBtn {
 
 /* about section */
 #aboutMe {
-  position: relative;
   background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
-  overflow: hidden;
   margin-bottom: 60px;
 }
-
-#aboutMe::before {
+#aboutMe .container {
+  position: relative;
+  overflow: hidden;
+}
+#aboutMe .container::before {
   content: "";
   position: absolute;
-  right: 150px;
+  right: 0px;
   bottom: -120px;
   width: 200px;
   height: 200px;
