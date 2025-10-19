@@ -277,37 +277,8 @@ nav .toggleBtn {
   color: #353535;
   margin-bottom: 70px;
 }
-.experiencee {
-  position: relative;
-}
 
-.experience-center {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
-.experience-center img {
-  position: absolute;
-  top: 0;
-}
-
-.experience-item {
-  margin-bottom: 168px;
-}
-
-.experience-left {
-  text-align: right;
-}
-.experience-item-2 {
-  margin-bottom: 96px;
-}
-
-.experience-right {
-  text-align: left;
-}
-
-.experience-content h5 {
+.timeline-container h5 {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 24px;
@@ -315,10 +286,53 @@ nav .toggleBtn {
   color: #353535;
 }
 
-.experience-content p {
+.timeline-container p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  color: #7a7a7a;
+}
+.timeline-container .work p {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
   line-height: 200%;
   color: #7a7a7a;
+}
+
+.timeline-container .date {
+  border-right: 2px dashed #7a7a7a;
+  padding-bottom: 140px;
+  position: relative;
+}
+
+.timeline-container .date::before {
+  content: "";
+  border: 2px dashed #7a7a7a;
+  border-radius: 100%;
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  right: -21px;
+  top: -21px;
+  background-color: white;
+}
+
+.timeline-container .date::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #52ab70;
+  border-radius: 100%;
+  right: -10px;
+  top: -10px;
+}
+
+.timeline-container .date.red::after {
+  background: #f17676;
+}
+.timeline-container .date.yellow::after {
+  background: #ffd233;
 }
