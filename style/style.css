@@ -239,7 +239,6 @@ nav .toggleBtn {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 50px;
-  text-align: right;
   color: #353535;
 }
 .helpTxt p {
@@ -247,7 +246,6 @@ nav .toggleBtn {
   font-weight: 400;
   font-size: 20px;
   line-height: 190%;
-  text-align: right;
   color: #353535;
 }
 
