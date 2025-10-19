@@ -15,8 +15,8 @@ a {
 }
 .btnCommon {
   font-family: var(--font-family);
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 16px;
   color: #fff;
   background: #fc0;
   border-radius: 12px;
@@ -75,7 +75,7 @@ nav .toggleBtn {
 .secBtn {
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   color: #353535;
   border: 1px solid #000;
   border-radius: 20px;
@@ -333,4 +333,110 @@ nav .toggleBtn {
 }
 .timeline-container .date.yellow::after {
   background: #ffd233;
+}
+
+/* Expert section start */
+#expert {
+  padding-bottom: 60px;
+}
+
+.expertTxt h2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 50px;
+  color: #353535;
+  margin-bottom: 22px;
+}
+
+.expertTxt p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  color: #7a7a7a;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  border-radius: 20px;
+  padding: 20px 30px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #353535;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.progress {
+  height: 6px;
+  border-radius: 10px;
+  background: #e6e6e6;
+}
+
+.progress-bar {
+  border-radius: 10px;
+}
+.progress {
+  margin-bottom: 20px;
+}
+.skill p {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  color: #353535;
+}
+.skill span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: right;
+}
+.skill .orange {
+  color: #f16500;
+}
+.skill .darkBlue {
+  color: #03249b;
+}
+.skill .purple {
+  color: #700d60;
+}
+.skill .blue {
+  color: #234bda;
+}
+.skill-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.tab-content {
+  margin-top: 20px;
+  min-height: 300px;
+}
+
+.education li strong {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  color: #353535;
+}
+.education li {
+  margin-bottom: 20px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
 }
