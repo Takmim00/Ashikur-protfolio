@@ -442,7 +442,7 @@ nav .toggleBtn {
 }
 /* Sevices section start */
 #service {
-  padding: 60px;
+  padding: 70px;
   margin-bottom: 60px;
   background: #fff7d5;
 }
@@ -464,7 +464,7 @@ nav .toggleBtn {
 }
 
 .service-card {
-  margin-top: 60px;
+  margin-top: 80px;
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
@@ -476,11 +476,9 @@ nav .toggleBtn {
   background: linear-gradient(151deg, #fc0 0%, #ffe476 98.84%);
   padding: 35px 20px;
   margin-top: 30px;
-  transform: translateY(-10px);
+  transform: translateY(10px);
   transition: all 0.3s ease;
 }
-
-
 .service-card img {
   padding-bottom: 20px;
 }
