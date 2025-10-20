@@ -565,7 +565,6 @@ nav .toggleBtn {
   margin-bottom: 40px;
 }
 
-
 .blog-meta {
   font-size: 0.85rem;
   color: #777;
@@ -645,10 +644,12 @@ nav .toggleBtn {
   border: none;
   border-radius: 0 16px 16px 0;
   background: #ff6565;
-  padding: 20px;
   font-family: var(--font-family);
+  font-weight: 600;
   font-size: 16px;
   color: #fff;
+  padding: 20px 10px;
+  width: 132px;
 }
 
 /* Footer section Start*/
