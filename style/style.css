@@ -546,3 +546,62 @@ nav .toggleBtn {
   line-height: 200%;
   color: #7a7a7a;
 }
+/* Blog section start */
+#blog {
+  padding-bottom: 60px;
+}
+#blog .container h2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 135%;
+  color: #353535;
+  margin-bottom: 70px;
+}
+.blog-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+.blog-content {
+  flex: 1;
+}
+
+.blog-meta {
+  font-size: 0.85rem;
+  color: #777;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-meta {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 190%;
+  color: #7a7a7a;
+}
+.blog-meta span {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 190%;
+  color: #353535;
+}
+.blog-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 190%;
+  color: #353535;
+  margin-bottom: 35px;
+}
+
+.read-more {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 190%;
+  color: #353535;
+}
