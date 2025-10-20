@@ -605,3 +605,39 @@ nav .toggleBtn {
   line-height: 190%;
   color: #353535;
 }
+
+/* Footer */
+#footer {
+  background: #575757;
+  padding: 60px 0;
+}
+.footerTitle h3 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  color: #fff;
+}
+.footerTitle p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: justify;
+  color: #bbb9b9;
+}
+.contact {
+  padding-top: 60px;
+}
+.contact p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+  color: #bbb9b9;
+}
+.contact span {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
