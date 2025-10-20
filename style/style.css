@@ -443,7 +443,6 @@ nav .toggleBtn {
 /* Sevices section start */
 #service {
   padding: 70px;
-  margin-bottom: 60px;
   background: #fff7d5;
 }
 #service .container h2 {
@@ -501,4 +500,49 @@ nav .toggleBtn {
 }
 .service-card.highlight p {
   font-weight: 500;
+}
+/* Feedback section start */
+#feedback {
+  padding: 60px 0;
+  margin-bottom: 60px;
+  background: #fbfbfb;
+}
+
+.feedback-title h2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 135%;
+  color: #353535;
+}
+.feedback-title p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  color: #7a7a7a;
+}
+.feedbackCard {
+  padding-top: 60px;
+}
+.feedback-text p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  color: #7a7a7a;
+}
+.feedback-text h5 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 200%;
+  color: #353535;
+}
+.feedbackGroup {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #7a7a7a;
 }
