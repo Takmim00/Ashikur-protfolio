@@ -605,8 +605,58 @@ nav .toggleBtn {
   line-height: 190%;
   color: #353535;
 }
+/* Newsletter section Start */
+#newsletter .container {
+  margin-bottom: 60px;
+  border-radius: 30px;
+  background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+}
+.newsletterTxt {
+  padding: 60px;
+}
+.newsletterTxt h5 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  color: #353535;
+}
+.newsletterTxt h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 200%;
+  color: #353535;
+}
+.newsletterTxt p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #353535;
+}
+.subscribe-form {
+  display: flex;
+}
+.subscribe-form input {
+  border: none;
+  border-radius: 16px 0 0 16px;
+  padding: 20px;
+  flex: 1;
+}
+.subscribe-form button {
+  border: none;
+  border-radius: 0 16px 16px 0;
+  background: #ff6565;
+  padding: 20px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 200%;
+  color: #fff;
+}
 
-/* Footer */
+/* Footer section Start*/
 #footer {
   background: #575757;
   padding: 60px 0;
@@ -656,7 +706,4 @@ nav .toggleBtn {
   position: absolute;
   bottom: 50px;
   left: 20px;
-  
-  
-
 }
